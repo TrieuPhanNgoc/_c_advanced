@@ -10,3 +10,13 @@ Date date_update(Date today)
     else
         setDate(tomorrow, today.month + 1, 1, today.year);
 }
+
+int number_of_days(Date date)
+{
+    return 1;
+}
+
+bool is_leap_year(Date date)
+{
+    return true;
+}
