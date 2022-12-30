@@ -16,8 +16,8 @@
 #	command
 
 # date folder path
-DIR_DATE := c_makefile/date/
-DIR := c_makefile/another/
+DIR_DATE := date/
+DIR := another/
 
 # Label:	<dependency object files>
 project:	degree.o	date.o
